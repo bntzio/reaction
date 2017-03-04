@@ -1,0 +1,22 @@
+@lost flexbox flex;
+
+body {
+  background-color: var(--bgColor);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .main {
+    text-align: center;
+
+    &-container {
+      lost-column: 1;
+      padding-top: 3rem;
+      margin: 0 auto;
+
+      & > h1 {
+        font-size: responsive 18px 32px;
+        color: var(--textColor);
+      }
+    }
+  }
+}
