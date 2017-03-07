@@ -1,0 +1,8 @@
+:root {
+  --bgColor: #0080ff;
+  --textColor: #fafafa;
+  --btn-gradient: #ecd018;
+  --btn-gradient-start: var(--btn-gradient);
+  --btn-gradient-end: #efbe66;
+  --btnBoxShadow: 5px 8px 10px 0px rgba(0,0,0,0.5);
+}

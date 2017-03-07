@@ -1,0 +1,9 @@
+.main-container-message {
+  font-size: responsive 18px 30px;
+  color: var(--textColor);
+  margin-bottom: 1.5rem;
+}
+
+.main-container-message.main-container-message--smaller {
+  font-size: responsive 10px 14px;
+}

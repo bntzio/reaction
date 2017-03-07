@@ -1,2 +1,8 @@
-@import './base/variables.css';
-@import './base/defaults.css';
+/* base */
+@import './base/_variables.css';
+@import './base/_mixins.css';
+@import './base/_defaults.css';
+
+/* components */
+@import './components/_welcome.css';
+@import './components/_button.css';

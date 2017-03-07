@@ -1,0 +1,9 @@
+a.main-container-button {
+  @mixin btn var(--textColor), var(--btn-gradient), var(--btn-gradient-start), var(--btn-gradient-end)
+}
+
+p.main-container-version {
+  margin-top: 1.4rem;
+  color: var(--textColor);
+  font-size: responsive 8px 12px;
+}
