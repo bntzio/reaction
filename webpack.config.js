@@ -47,5 +47,6 @@ module.exports = {
       },
       template: './src/index.html'
     })
-  ]
+  ],
+  devTool: 'eval-source-map'
 };
