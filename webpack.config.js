@@ -26,10 +26,7 @@ module.exports = {
       },
       {
         test: /\.jsx?$/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['es2015', 'es2016', 'react']
-        },
+        loader: 'babel',
         exclude: /(node_modules)|(bower_components)/
       }
     ]

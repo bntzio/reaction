@@ -1,6 +1,6 @@
 {
   "name": "reaction",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A super simple yet powerful react + redux boilerplate",
   "main": "app.js",
   "scripts": {
